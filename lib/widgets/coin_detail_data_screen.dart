@@ -41,7 +41,9 @@ class CoinDetailAppBar extends StatelessWidget {
             ),
             title: Text(
               coin.name + " #" + coin.cmcRank.toString(),
-              style: Theme.of(context).textTheme.headline5,
+              style: const TextStyle(
+                color: Colors.white,
+              ),
               overflow: TextOverflow.ellipsis,
             ),
           ),

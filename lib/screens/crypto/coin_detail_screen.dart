@@ -72,12 +72,14 @@ class CoinDetailScreen extends StatelessWidget {
                           children: [
                             Text(
                               "Circulating Supply: ",
-                              style: Theme.of(context).textTheme.subtitle1,
-                            ),
+                              style: const TextStyle(
+                                color: Colors.white,
+                              ),                            ),
                             Text(
                               coin.circulatingSupply.toString(),
-                              style: Theme.of(context).textTheme.headline6,
-                            ),
+                              style: const TextStyle(
+                                color: Colors.white,
+                              ),                            ),
                           ],
                         ),
                         const SizedBox(height: 8.0),
@@ -86,12 +88,14 @@ class CoinDetailScreen extends StatelessWidget {
                           children: [
                             Text(
                               "Max Supply: ",
-                              style: Theme.of(context).textTheme.subtitle1,
-                            ),
+                              style: const TextStyle(
+                                color: Colors.white,
+                              ),                            ),
                             Text(
                               coin.maxSupply.toString(),
-                              style: Theme.of(context).textTheme.headline6,
-                            ),
+                              style: const TextStyle(
+                                color: Colors.white,
+                              ),                            ),
                           ],
                         ),
                         const SizedBox(height: 8.0),
@@ -100,12 +104,14 @@ class CoinDetailScreen extends StatelessWidget {
                           children: [
                             Text(
                               "Market pairs: ",
-                              style: Theme.of(context).textTheme.subtitle1,
-                            ),
+                              style: const TextStyle(
+                                color: Colors.white,
+                              ),                            ),
                             Text(
                               coin.numMarketPairs.toString(),
-                              style: Theme.of(context).textTheme.headline6,
-                            ),
+                              style: const TextStyle(
+                                color: Colors.white,
+                              ),                            ),
                           ],
                         ),
                         const SizedBox(height: 8.0),
@@ -114,12 +120,15 @@ class CoinDetailScreen extends StatelessWidget {
                           children: [
                             Text(
                               "Market Cap: ",
-                              style: Theme.of(context).textTheme.subtitle1,
-                            ),
+                              style: const TextStyle(
+                                color: Colors.white,
+                              ),                            ),
                             Text(
                               coin.quoteModel.usdModel.marketCap
                                   .toStringAsFixed(2),
-                              style: Theme.of(context).textTheme.headline6,
+                              style: const TextStyle(
+                                color: Colors.white,
+                              ),
                             ),
                           ],
                         ),
